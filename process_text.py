@@ -17,5 +17,5 @@ for index, data in enumerate(texts):
         continue
     df.loc[index] = format_data(data)
 
-df.to_csv('static\ORIGIN\TextAsset\localization.csv',index=False,encoding='utf_8_sig')
+df.to_csv('static\localization.csv',index=False,encoding='utf_8_sig')
 

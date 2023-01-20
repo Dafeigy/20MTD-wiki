@@ -3,32 +3,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome 2 RL8uffer</title>
+    <title>20 Minutes Till Dawn</title>
 </head>
-<link rel="stylesheet" href="{{ url_for('static', filename = 'css/homepage.css') }}", type="text/css">
+<link rel="stylesheet" href="{{ url_for('static', filename = 'CSS/homepage.css') }}", type="text/css">
 <body>
-    <div class="container">
-        <a href="{{url_for('Images')}}" class="btn Images">
-            
-                <img src="{{ url_for('static', filename='images/image.png') }}" alt="" style="zoom: 30%;">
-                <p>Images</p>
-            
-        </a>
-
-        <a href="{{url_for('Tables')}}" class="btn Tables">
-            
-                <img src="{{ url_for('static', filename='images/table.png') }}" alt="" style="zoom: 30%;">
-                <p>Tables</p>
-            
-        </a>
-            
-        <a href="{{url_for('Tables')}}" class="btn Unknown">
-            
-                <img src="{{ url_for('static', filename='images/code.png') }}" alt="" style="zoom: 30%;">
-                <p>Configuration</p>
-            
-        </a>
+    <div class="top">
+        Banner
     </div>
+    <div class="container">
+        <div class="left">left</div>
+        <div class="right">
+            <div class="Characters"></div>
+            <div class="Upgrades"></div>
+            <div class="Runes"></div>
+            <div class="Weapons"></div>
+        </div>
+    </div>
+    
     
 </body>
 </html>

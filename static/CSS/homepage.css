@@ -1,0 +1,86 @@
+*{
+   margin: 0;
+   padding: 0;
+   
+}
+
+body{
+  background-image: url('../ORIGIN/Texture2D/T_BoneTile.png');
+}
+
+.top{
+  margin: 0 auto;
+  left: 50%;
+  text-align: center;
+  
+  width: 100%;
+  height: 10%;
+  background-color: #ff0;
+}
+
+.container div{
+  
+  cursor: pointer;
+  width: 45%;
+  height: 89%;
+  text-align: center;
+  float: left;
+  opacity: 70%;
+  
+}
+
+.left{
+  margin-left: 5%;
+  color: #000;
+  background-color: #fff;
+}
+
+.right{
+  margin-right: 5%;
+  color: #fff;
+  background-color: rgb(39,32,48);
+}
+
+
+.right div{
+  cursor: pointer;
+  float: left;
+  height: 50%;
+  width: 50%;
+  text-align: center;
+}
+
+.Characters{
+  background-color: aquamarine;
+}
+
+.Upgrades{
+  background-color: brown;
+}
+
+.Runes{
+  background-color: peru;
+}
+
+.Weapons{
+  background-color: gray;
+}
+
+@font-face {
+  font-family: potra;
+  src: url(../fonts/Potra.ttf);
+}
+
+@font-face {
+  font-family: fusion-pixel;
+  src: url(../fonts/fusion-pixel.ttf);
+}
+
+p{  
+    font-size: 40px;
+  /* font-family: fusion-pixel; */
+}
+
+a{
+  text-decoration: none;
+}
