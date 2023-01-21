@@ -30,11 +30,11 @@ body{
 .nav{
   margin: 0 auto;
   width: 92%;
-  height: 75%;
+  height: 90%;
   background-color: #fff;
   
   margin-top: 1%;
-  margin-bottom: 1%;
+  margin-bottom: 0%;
 }
 
 .nav div{
@@ -67,14 +67,36 @@ body{
 }
 
 .Contact{
-  background-color: #333;
+  background-color: #111;
   height: 100%;
   width: 12%;
   float: right;
+  margin-right: 1%;
+  align-content: center;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
+
+.Contact *{
+  
+  float: left;
+  margin-left: 5%;
+  
+}
+
+.Contact p{
+  font-size: 20px;
+}
+.Contact img{
+  zoom: 5%;
+}
+
+.container{
+  margin-top: 0.5%;
 }
 
 .container .left, .container .right{
-  cursor: pointer;
   width: 45%;
   height: 89%;
   text-align: center;
@@ -104,7 +126,14 @@ body{
   
 }
 
+.more{
+  font-size: 10;
+  color: #333;
+  
+}
+
 .Start{
+  margin-top: 4%;
   width: 25%;
   height: 8%;
   border: none;
@@ -135,19 +164,19 @@ body{
 
 
 .Characters{
-  background-color: aquamarine;
+  background-color: rgb(41,52,72);
 }
 
 .Upgrades{
-  background-color: brown;
+  background-color: rgb(41,52,72);
 }
 
 .Runes{
-  background-color: peru;
+  background-color: rgb(41,52,72);
 }
 
 .Weapons{
-  background-color: gray;
+  background-color: rgb(41,52,72);
 }
 
 @font-face {
@@ -167,5 +196,8 @@ p{
 
 a{
   text-decoration: none;
+  width: 100%;
   color: #fff;
+  font-size: 20px;
+  font-family: fusion-pixel;
 }
