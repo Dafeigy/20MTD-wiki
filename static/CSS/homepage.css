@@ -8,18 +8,72 @@ body{
   background-image: url('../ORIGIN/Texture2D/T_BoneTile.png');
 }
 
-.top{
-  margin: 0 auto;
-  left: 50%;
-  text-align: center;
-  
+.nav-btn{
+  border: none;
+  height: 100%;
   width: 100%;
-  height: 10%;
-  background-color: #ff0;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: fusion-pixel;
+  color: rgb(39,32,48);
 }
 
-.container div{
+.top{
+  margin: 0 auto;
   
+  text-align: center;
+  width: 100%;
+  height: 5%;
+}
+
+.nav{
+  margin: 0 auto;
+  width: 92%;
+  height: 75%;
+  background-color: #fff;
+  
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.nav div{
+  /* float: left; */
+  
+  top: 50%;
+  left: 50%;
+  
+  align-content: center;
+  
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
+
+.Homepage,.About,.Languages{
+  float: left;
+  height: 100%;
+  width: 13%;
+  cursor: pointer;
+  
+  
+}
+
+.logo{
+  float: left;
+  height: 100%;
+  width: 10%;
+  align-content: center;
+  
+}
+
+.Contact{
+  background-color: #333;
+  height: 100%;
+  width: 12%;
+  float: right;
+}
+
+.container .left, .container .right{
   cursor: pointer;
   width: 45%;
   height: 89%;
@@ -33,6 +87,31 @@ body{
   margin-left: 5%;
   color: #000;
   background-color: #fff;
+}
+
+.left{
+  float: top;
+}
+
+/* zuobian */
+
+.cap{
+  margin: 0 auto;
+  margin-top: 50%;
+  font-size: 80px;
+  color: rgb(253,81,97);
+  font-family: fusion-pixel;
+  
+}
+
+.Start{
+  width: 25%;
+  height: 8%;
+  border: none;
+  color: #fff;
+  background-color: rgb(253,81,97);
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .right{
@@ -49,6 +128,11 @@ body{
   width: 50%;
   text-align: center;
 }
+
+
+
+
+
 
 .Characters{
   background-color: aquamarine;
@@ -73,7 +157,7 @@ body{
 
 @font-face {
   font-family: fusion-pixel;
-  src: url(../fonts/fusion-pixel.ttf);
+  src: url(../fonts/fusion-pixel.otf);
 }
 
 p{  
@@ -83,4 +167,5 @@ p{
 
 a{
   text-decoration: none;
+  color: #fff;
 }
