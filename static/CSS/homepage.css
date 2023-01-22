@@ -40,7 +40,7 @@ body{
 .nav div{
   /* float: left; */
   
-  top: 50%;
+  top: 40%;
   left: 50%;
   
   align-content: center;
@@ -63,11 +63,26 @@ body{
   height: 100%;
   width: 10%;
   align-content: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
+
+.logo img{
+  zoom: 25%;
   
 }
 
+.nav div{
+  align-content: center;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
+
 .Contact{
-  background-color: #111;
+  background-color: rgb(253,81,97);
   height: 100%;
   width: 12%;
   float: right;
@@ -123,7 +138,7 @@ body{
   font-size: 80px;
   color: rgb(253,81,97);
   font-family: fusion-pixel;
-  
+  opacity: 100%;
 }
 
 .more{
@@ -159,24 +174,101 @@ body{
 }
 
 
+.right img{
+  zoom: 100%;
+}
+
 
 
 
 
 .Characters{
   background-color: rgb(41,52,72);
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
 }
+
+.Characters:hover{
+  background-color: rgb(253,81,97);
+  transition-duration: 0.5s;
+  
+  
+}
+.Characters p{
+  font-size: 20px;
+  font-family: fusion-pixel;
+}
+
+
 
 .Upgrades{
   background-color: rgb(41,52,72);
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
+
+.Upgrades:hover{
+  background-color: rgb(253,81,97);
+  transition-duration: 0.5s;
+  
+}
+.Upgrades p{
+  font-size: 20px;
+  font-family: fusion-pixel;
 }
 
 .Runes{
   background-color: rgb(41,52,72);
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
+
+.Runes:hover{
+  background-color: rgb(253,81,97);
+  transition-duration: 0.5s;
+  
+}
+.Runes p{
+  font-size: 20px;
+  font-family: fusion-pixel;
 }
 
 .Weapons{
   background-color: rgb(41,52,72);
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
+
+.Weapons:hover{
+  background-color: rgb(253,81,97);
+  
+  transition-duration: 0.5s;
+  
+}
+
+.Weapons p{
+  font-size: 20px;
+  font-family: fusion-pixel;
+}
+
+.right img{
+  opacity: 100%;
+}
+
+.right img :hover{
+  filter: invert(100%);
 }
 
 @font-face {
@@ -200,4 +292,64 @@ a{
   color: #fff;
   font-size: 20px;
   font-family: fusion-pixel;
+}
+
+
+.nav-btn{
+  background-color: #fff;
+}
+
+.nav-btn img{
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  align-content: center;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
+
+.nav-btn p{
+  float: left;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  align-content: center;
+  display: flex;
+  justify-content: center;/*垂直居中*/
+  align-items: center;/*水平居中*/
+}
+
+.nav-btn::before{
+outline: none;
+content: '';
+position: absolute;
+background: #b1b1b1;
+transform: 0.5s;
+transform: rotate(0deg) skewY(-45deg);
+}
+
+.nav-btn::after{
+position: absolute;
+bottom: -20px;
+left: 0px;
+height: 0px;
+width: 100%;
+background: #b1b1b1;
+transform: 0.5s;
+transform: rotate(0deg) skewX(-45deg);
+}
+
+.nav-btn:focus,.nav-btn:focus:after{
+  outline: none;
+}
+
+.nav-btn:hover{
+
+background-color: rgb(253,81,97);
+color: #fff;
+transition-duration: 0.5s;
 }

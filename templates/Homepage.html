@@ -9,7 +9,9 @@
 <body>
     <div class="top">
         <div class="nav">
-            <div class="logo">logo</div>
+            <div class="logo">
+                <img src="{{ url_for('static', filename='/ORIGIN/Texture2D/T_20Logo.png') }}" alt="logo">
+            </div>
             <div class="Homepage">
                 <button class="nav-btn">Homepage</button>
             </div>
@@ -24,7 +26,7 @@
             <a href="https://github.com/dafeigy">
                 <div class="Contact">
                     <img src="{{ url_for('static', filename='/Images/logos/github.png') }}" alt="Github Logo">
-                    <p>Contact</p>
+                    <p>Contact Me</p>
                 </div>
             </a>
             
@@ -42,16 +44,20 @@
         </div>
         <div class="right">
             <div class="Characters">
-                Characters
+                <img src="{{ url_for('static', filename='/Images/Powerups/7-4.png') }}" alt="Characters">
+                <p>Characters</p>
             </div>
             <div class="Upgrades">
-                Upgrades
+                <img src="{{ url_for('static', filename='/Images/Powerups/4-5.png') }}" alt="Upgrades">
+                <p>Upgrades</p>
             </div>
             <div class="Runes">
-                Runes
+                <img src="{{ url_for('static', filename='/Images/Powerups/4-7.png') }}" alt="Runes">
+                <p>Runes</p>
             </div>
             <div class="Weapons">
-                Weapons
+                <img src="{{ url_for('static', filename='/Images/Powerups/12-5.png') }}" alt="Weapons">
+                <p>Weapons</p>
             </div>
         </div>
     </div>
