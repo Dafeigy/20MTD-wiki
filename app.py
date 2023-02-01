@@ -26,6 +26,9 @@ def Upgrades():
 def Weapons():
     return render_template("Weapons-main.html")
 
+@app.route('/Weapons/<weapon>')
+def show_weapon(weapon):
+    return f"{weapon} is good."
     
 if __name__ == '__main__':
     app.run(host="127.0.0.1", port=5000,debug=True)
