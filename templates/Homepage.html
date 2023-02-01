@@ -43,22 +43,30 @@
             <button class="Start">Start Now ></button>
         </div>
         <div class="right">
-            <div class="Characters">
-                <img src="{{ url_for('static', filename='/Images/Powerups/7-4.png') }}" alt="Characters">
-                <p>Characters</p>
-            </div>
-            <div class="Upgrades">
-                <img src="{{ url_for('static', filename='/Images/Powerups/4-5.png') }}" alt="Upgrades">
-                <p>Upgrades</p>
-            </div>
-            <div class="Runes">
-                <img src="{{ url_for('static', filename='/Images/Powerups/4-7.png') }}" alt="Runes">
-                <p>Runes</p>
-            </div>
-            <div class="Weapons">
-                <img src="{{ url_for('static', filename='/Images/Powerups/12-5.png') }}" alt="Weapons">
-                <p>Weapons</p>
-            </div>
+            <a href="{{url_for('Characters')}}">
+                <div class="Characters">
+                    <img src="{{ url_for('static', filename='/Images/Powerups/7-4.png') }}" alt="Characters">
+                    <p>Characters</p>
+                </div>
+            </a>
+            <a href="{{url_for('Upgrades')}}">
+                <div class="Upgrades">
+                    <img src="{{ url_for('static', filename='/Images/Powerups/4-5.png') }}" alt="Upgrades">
+                    <p>Upgrades</p>
+                </div>
+            </a>
+            <a href="{{url_for('Runes')}}">
+                <div class="Runes">
+                    <img src="{{ url_for('static', filename='/Images/Powerups/4-7.png') }}" alt="Runes">
+                    <p>Runes</p>
+                </div>
+            </a>
+            <a href="{{url_for('Weapons')}}"">
+                <div class="Weapons">
+                    <img src="{{ url_for('static', filename='/Images/Powerups/12-5.png') }}" alt="Weapons">
+                    <p>Weapons</p>
+                </div></a>
+            
         </div>
     </div>
     

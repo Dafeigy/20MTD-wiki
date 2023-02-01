@@ -10,13 +10,21 @@ app = Flask(__name__)
 def homepage():
     return render_template("Homepage.html")
 
-@app.route("/Images")
-def Images():
-    return render_template("Images.html")
+@app.route("/Characters")
+def Characters():
+    return render_template("Characters-main.html")
 
-@app.route("/Tables")
-def Tables():
-    return render_template("Tables.html")
+@app.route("/Runes")
+def Runes():
+    return render_template("Runes-main.html")
+
+@app.route("/Upgrades")
+def Upgrades():
+    return render_template("Upgrades-main.html")
+
+@app.route("/Weapons")
+def Weapons():
+    return render_template("Weapons-main.html")
 
     
 if __name__ == '__main__':
