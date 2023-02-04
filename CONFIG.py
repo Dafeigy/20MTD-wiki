@@ -1,0 +1,1 @@
+WEAPONS = ['Revolver','Crossbow','Shotgun','Grenade Launcher'，‘Batgun]
